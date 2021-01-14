@@ -1,0 +1,16 @@
+$colors: (
+    black: #010307,
+    blue: #5665A5,
+    red: #A55F56,
+    green: #56A2A5,
+    dark-green: #56A568,
+    yellow: #A5A256,
+    grey: #9b9a9a
+);
+
+@function getColor($color) {
+    @return map-get($colors, $color);
+}
+
+$media-ipad: 700px;
+$media-laptop: 1200px;

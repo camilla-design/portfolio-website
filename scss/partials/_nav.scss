@@ -1,0 +1,101 @@
+.topnav {
+
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    .company-logo-bigger-devices {
+        display: none;
+        padding: 20px;
+        @media (min-width: $media-ipad) {
+            display: block;
+        }
+
+        img {
+            width: 100px;
+        }
+    }
+    .company-logo {
+        padding: 20px;
+
+        @media (min-width: $media-ipad) {
+            display: none;
+        }
+
+        img {
+            width: 50px;
+        }
+    }
+
+    @media (min-width: $media-ipad) {
+        width: $media-ipad;
+        margin: 0 auto;
+    }
+
+    @media (min-width: $media-laptop) {
+        width: $media-laptop;
+        margin: 0 auto;
+    }
+
+    #navLinks {
+        display: none;
+        padding-top: 90px;
+        text-align: center;
+
+        @media (min-width: $media-ipad) {
+            display: inline-block;
+            display: flex;
+            padding-top: 20px;
+
+        }
+    }
+    a {
+         color: getColor(blue);
+         padding: 8px 8px;
+         font-size: 17px;
+         display: block;
+         text-decoration: none;
+         text-transform: uppercase;
+     }
+
+     @media (min-width: $media-ipad) {
+        hr {
+            display: none;
+        }
+    }
+
+     .contact-info {
+         a {
+             color: getColor(black);
+             text-transform: unset;
+         }
+
+         @media (min-width: $media-ipad) {
+            display: none
+        }
+
+         .contact-icons {
+             display: flex;
+             justify-content: space-between;
+
+             a {
+                font-size: 25px;
+                
+             }
+
+             .fa-user-circle {
+                 color: getColor(red);
+             }
+             .fa-at {
+                 color: getColor(blue);
+             }
+             .fa-phone-alt {
+                 color: getColor(green);
+             }
+             
+         }
+     }
+
+    
+}

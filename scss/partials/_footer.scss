@@ -1,0 +1,39 @@
+footer {
+    display: none;
+    
+
+    @media (min-width: $media-ipad) {
+        width: $media-ipad;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-shrink: 0;
+    }
+
+    @media (min-width: $media-laptop) {
+        width: $media-laptop;
+        margin: 0 auto;
+    }
+
+    
+    .contact-icons {
+        display: flex;
+        justify-content: space-between;
+        width: 150px;
+        a {
+           font-size: 25px;
+           
+        }
+
+        .fa-user-circle {
+            color: getColor(red);
+        }
+        .fa-at {
+            color: getColor(blue);
+        }
+        .fa-phone-alt {
+            color: getColor(green);
+        }
+        
+    }
+}
