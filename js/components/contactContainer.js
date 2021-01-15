@@ -21,7 +21,7 @@ export function contactContainer() {
                     <h4>Camilla Reppen</h4>
                     <hr>
                     <div class="contact-icons">
-                    <li><i class="fas fa-user-circle"></i><a href="#"> Front-end Utvikler</a></li>
+                    <li><i class="fas fa-user-circle"></i><a href="https://www.facebook.com/Camilla-Reppen-Front-end-Utvikler-105373874864574"> Front-end Utvikler</a></li>
                     <li><i class="fas fa-at"></i><a href="mailto:camilla.reppen88@gmail.com"> camilla.reppen88@gmail.com</a></li>
                     <li><i class="fas fa-phone-alt"></i><a href="tel: 46748737"> 46748737</a></li>
                     </div>
