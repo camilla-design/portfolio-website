@@ -14,6 +14,7 @@ export function navbar() {
             <a href="./goles.html">Mine mål</a>
             <a href="./portfolio.html">Mine prosjekter</a>
             <a href="./contact.html">Kontakt meg</a>
+            <a href="./testemonial.html">Uttalelser</a>
                 
                 <hr>
                 <div class="contact-info">

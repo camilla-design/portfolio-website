@@ -1,0 +1,41 @@
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 70%;
+    margin: 0 auto;
+
+    .testemonial-text {
+        padding-top: 40px;
+
+        p {
+            font-weight: 100;
+        }
+
+        a {
+            text-decoration: none;
+            font-style: italic;
+
+            &:hover {
+                color: getColor(black);
+            }
+        }
+    }
+
+
+    .testemonial-wrapper {
+    @media (min-width: $media-laptop) {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        justify-content: space-between;
+
+        .testemonial-text {
+            width: 400px;
+            padding-top: 40px;
+        }
+    }
+    }
+}
