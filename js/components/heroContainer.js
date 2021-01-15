@@ -20,8 +20,8 @@ export function heroContainer() {
         </div>
 
         <div class="action-buttons">
-            <a href="" class="read-more">Les mer</a>
-            <a href="" class="contact">Kontakt meg</a>
+            <a href="./about.html" class="read-more">Les mer</a>
+            <a href="mailto:camilla.reppen88@gmail.com" class="contact">Kontakt meg</a>
         </div> 
         
     </div>
@@ -41,8 +41,8 @@ export function heroContainer() {
         </div>
 
         <div class="action-buttons">
-            <a href="" class="read-more">Les mer</a>
-            <a href="" class="contact">Kontakt meg</a>
+            <a href="./about.html" class="read-more">Les mer</a>
+            <a href="mailto:camilla.reppen88@gmail.com" class="contact">Kontakt meg</a>
         </div>
         </div>
 

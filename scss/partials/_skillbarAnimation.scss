@@ -19,7 +19,6 @@
         left: 25%;
     }
 
-
     .skillbox {
 
         box-sizing: border-box;
@@ -30,7 +29,7 @@
             text-transform: uppercase;
             margin: 0 0 10px;
             padding: 0;
-            font-weight: bold;
+            font-weight: 700;
             letter-spacing: 1px;
         }
 
@@ -46,7 +45,7 @@
             border: 1px solid getColor(grey);
             border-radius: 5px;
         }
-        
+
 
     }
 
@@ -69,7 +68,7 @@
         background: getColor(dark-green);
         animation: sass 2s;
     }
-    
+
     .javascript-bar {
         background: getColor(yellow);
         animation: javascript 2s;
@@ -83,7 +82,8 @@
     @keyframes html {
         0% {
             width: 0;
-        } 
+        }
+
         100% {
             width: 80%;
         }
@@ -92,7 +92,8 @@
     @keyframes css {
         0% {
             width: 0;
-        } 
+        }
+
         100% {
             width: 70%;
         }
@@ -101,7 +102,8 @@
     @keyframes sass {
         0% {
             width: 0;
-        } 
+        }
+
         100% {
             width: 55%;
         }
@@ -110,7 +112,8 @@
     @keyframes javascript {
         0% {
             width: 0;
-        } 
+        }
+
         100% {
             width: 20%;
         }
@@ -119,12 +122,10 @@
     @keyframes react {
         0% {
             width: 0;
-        } 
+        }
+
         100% {
             width: 5%;
         }
     }
-
-    
-
 }

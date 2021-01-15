@@ -1,23 +1,19 @@
-
-
 .hero-container {
     height: 80%;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
-   
+    margin: 0 auto;
+    text-align: center;
 
-    
+    .container-small-devices {
 
-.container-small-devices {
+        @media (min-width: $media-laptop) {
+            display: none;
+        }
 
-    @media (min-width: $media-laptop) {
-        display: none;
     }
-
-}
-
 
     @media (min-width: $media-ipad) {
         width: $media-ipad;
@@ -38,75 +34,85 @@
             justify-content: space-between;
             width: 70%;
             margin: 0 auto;
-        } 
+        }
     }
-
-    
 
     .portfolio-image {
         padding-top: 30px;
-        
-        
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
         img {
             padding-top: 30px;
             padding-left: 20px;
             padding-right: 10px;
             background: getColor(grey);
             border: 1px solid getColor(black);
+            width: 300px;
         }
     }
 
+    h2 {
+        text-transform: uppercase;
+        letter-spacing: 20px;
+        font-size: 30px;
+        padding-top: 30px;
+        font-weight: 100;
+    }
 
+    .quote {
+        font-size: 18px;
+        padding-top: 30px;
 
-        h2 {
-            text-transform: uppercase;
-            letter-spacing: 20px;
-            font-size: 30px;
-            padding-top: 30px;
+        h4 {
             font-weight: 100;
         }
 
-        .quote {
-            font-size: 18px;
-            padding-top: 30px;
-            
-            h4 {
-                font-weight: 100;
-            }
+        i {
+            color: getColor(blue);
+        }
+    }
 
-            i {
-                color: getColor(blue);
+    .action-buttons {
+        padding: 10px;
+        padding-top: 50px;
+
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+            margin: 8px;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 700;
+        }
+
+        .read-more {
+            background: getColor(blue);
+            color: white;
+            padding: 8px 26px 8px 26px;
+            border-radius: 16px;
+            box-shadow: 0 2px 5px grey;
+
+            &:hover {
+                color: getColor(black);
+                background: white;
             }
         }
 
-        .action-buttons {
-            padding: 10px;
-            padding-top: 50px;
+        .contact {
+            padding: 8px 26px 8px 26px;
+            border-radius: 16px;
+            color: getColor(black);
+            border: 1px solid getColor(black);
+            box-shadow: 0 2px 5px grey;
 
-            a {
-                text-decoration: none;
-                text-transform: uppercase;
-                margin: 8px;
-                cursor: pointer;
-                font-size: 16px;
-                font-weight: bold;
-            }
-
-            .read-more {
+            &:hover {
                 background: getColor(blue);
                 color: white;
-                padding: 10px 26px 10px 26px;
-                border-radius: 16px;
-                box-shadow: 0 2px 5px grey;
-            }
-
-            .contact {
-                padding: 10px 26px 10px 26px;
-                border-radius: 16px;
-                color: getColor(black);
-                border: 1px solid getColor(black);
-                box-shadow: 0 2px 5px grey;
             }
         }
+    }
 
 }

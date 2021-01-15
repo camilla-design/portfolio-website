@@ -1,4 +1,4 @@
-export function earproofDetails() {
+export function modalDetails() {
     
     var modal = document.getElementById("myModal");
 

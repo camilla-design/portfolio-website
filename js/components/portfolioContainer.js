@@ -24,7 +24,7 @@ export function portfolioContainer() {
             <div class="info">
                 <h2>Explore Leka</h2>
                 <p>HTML, CSS & JAVASCRIPT</p>
-                <a href="" class="button">Les mer</a>
+                <a href="./explore-leka.html" class="button">Les mer</a>
             </div>
         </div>
         <div class="card">
@@ -32,7 +32,7 @@ export function portfolioContainer() {
             <div class="info">
                 <h2>Re-Cycle</h2>
                 <p>HTML & CSS</p>
-                <a href="" class="button">Les mer</a>
+                <a href="./re-cycle.html" class="button">Les mer</a>
             </div>
         </div>
         <div class="card">
@@ -40,7 +40,7 @@ export function portfolioContainer() {
             <div class="info">
                 <h2>Shadowball</h2>
                 <p>HTML, CSS & JAVASCRIPT</p>
-                <a href="" class="button">Les mer</a>
+                <a href="./shadowball.html" class="button">Les mer</a>
             </div>
         </div>
 

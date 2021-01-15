@@ -1,13 +1,15 @@
 .topnav {
-
     overflow: hidden;
     position: relative;
     display: flex;
     justify-content: space-between;
+    position: relative;
+    width: 100%;
 
     .company-logo-bigger-devices {
         display: none;
         padding: 20px;
+
         @media (min-width: $media-ipad) {
             display: block;
         }
@@ -16,8 +18,10 @@
             width: 100px;
         }
     }
+
     .company-logo {
-        padding: 20px;
+        padding-top: 20px;
+        padding-left: 20px;
 
         @media (min-width: $media-ipad) {
             display: none;
@@ -40,62 +44,74 @@
 
     #navLinks {
         display: none;
+        padding: 0;
         padding-top: 90px;
+        position: relative;
         text-align: center;
+        background: white;
+        z-index: 4;
+        width: 100%;
 
         @media (min-width: $media-ipad) {
             display: inline-block;
             display: flex;
-            padding-top: 20px;
+            padding: 20px;
 
         }
     }
-    a {
-         color: getColor(blue);
-         padding: 8px 8px;
-         font-size: 17px;
-         display: block;
-         text-decoration: none;
-         text-transform: uppercase;
-     }
 
-     @media (min-width: $media-ipad) {
+    a {
+        color: getColor(blue);
+        padding: 8px 8px;
+        font-size: 17px;
+        display: block;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 100;
+
+        &:hover {
+            font-weight: 700;
+        }
+    }
+
+    @media (min-width: $media-ipad) {
         hr {
             display: none;
         }
     }
 
-     .contact-info {
-         a {
-             color: getColor(black);
-             text-transform: unset;
-         }
+    .contact-info {
+        a {
+            color: getColor(black);
+            text-transform: unset;
+        }
 
-         @media (min-width: $media-ipad) {
+        @media (min-width: $media-ipad) {
             display: none
         }
 
-         .contact-icons {
-             display: flex;
-             justify-content: space-between;
+        .contact-icons {
+            display: flex;
+            justify-content: space-between;
+            background: white;
 
-             a {
+            a {
                 font-size: 25px;
-                
-             }
 
-             .fa-user-circle {
-                 color: getColor(red);
-             }
-             .fa-at {
-                 color: getColor(blue);
-             }
-             .fa-phone-alt {
-                 color: getColor(green);
-             }
-             
-         }
-     }
+            }
 
-    
+            .fa-user-circle {
+                color: getColor(red);
+            }
+
+            .fa-at {
+                color: getColor(blue);
+            }
+
+            .fa-phone-alt {
+                color: getColor(green);
+            }
+
+        }
+    }
 }

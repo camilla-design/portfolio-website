@@ -6,7 +6,7 @@
     flex-wrap: wrap;
 
     @media (min-width: $media-ipad) {
-        width: 60%;
+        width: 70%;
     }
 
     .card {
@@ -81,6 +81,11 @@
                 padding: 10px 26px 10px 26px;
                 border-radius: 16px;
                 box-shadow: 0 2px 5px grey;
+
+                &:hover {
+                    color: getColor(black);
+                    background: white;
+                }
             }
         }
     }

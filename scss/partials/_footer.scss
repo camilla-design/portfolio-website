@@ -1,6 +1,5 @@
 footer {
     display: none;
-    
 
     @media (min-width: $media-ipad) {
         width: $media-ipad;
@@ -16,24 +15,53 @@ footer {
     }
 
     
+
     .contact-icons {
         display: flex;
         justify-content: space-between;
         width: 150px;
+
         a {
-           font-size: 25px;
-           
+            font-size: 25px;
+
         }
 
         .fa-user-circle {
             color: getColor(red);
+
+            &:hover {
+                color: getColor(black);
+            }
         }
+
         .fa-at {
             color: getColor(blue);
+
+            &:hover {
+                color: getColor(black);
+            }
         }
+
         .fa-phone-alt {
             color: getColor(green);
+
+            &:hover {
+                color: getColor(black);
+            }
         }
-        
+
+    }
+}
+
+.contact-info {
+
+    a {
+        text-decoration: none;
+        color: getColor(black);
+
+        &:hover {
+            font-weight: 700;
+            color: getColor(blue);
+        } 
     }
 }
