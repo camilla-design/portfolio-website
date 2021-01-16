@@ -11,8 +11,8 @@ export function portfolioContainer() {
         </div>
     </div>
     <div class="gallery-content">
-        <div class="card">
-            <img src="./gallery/earproof.png">
+    <div class="card">
+        <img src="./gallery/earproof.png">
             <div class="info">
                 <h2>EarProof</h2>
                 <p>HTML, SASS, JAVASCRIPT & API</p>
