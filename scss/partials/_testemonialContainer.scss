@@ -4,8 +4,11 @@
     display: flex;
     flex-direction: column;
     width: 80%;
-    height: 80%;
     margin: 0 auto;
+
+    @media (min-width: $media-ipad) {
+        height: 80%;
+    }
 
     .testemonial-text {
         padding-top: 40px;

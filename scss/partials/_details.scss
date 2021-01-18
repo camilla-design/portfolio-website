@@ -4,7 +4,6 @@
     display: flex;
     flex-direction: column;
     width: 90%;
-    height: 80%;
     margin: 0 auto;
 
     @media (min-width: $media-ipad) {
@@ -70,17 +69,20 @@
 
             .read-more {
                 background: getColor(blue);
-                color: white;
-                padding: 10px 26px 10px 26px;
-                border-radius: 16px;
-                box-shadow: 0 2px 5px grey;
+            color: white;
+            padding: 8px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px grey;
 
-                a {
-                    text-decoration: none;
-                    color: white;
-                    text-transform: uppercase;
-                    font-size: 14px;
-                }
+            a {
+                color: white;
+                text-decoration: none;
+            }
+
+            &:hover {
+                color: getColor(black);
+                background: white;
+            }
 
                 @media (min-width: $media-ipad) {
                     display: none;
@@ -88,8 +90,8 @@
             }
 
             .link {
-                padding: 10px 26px 10px 26px;
-                border-radius: 16px;
+                padding: 8px;
+                border-radius: 8px;
 
                 border: 1px solid getColor(black);
                 box-shadow: 0 2px 5px grey;
@@ -143,9 +145,10 @@ p {
 
 .brief-heading {
     padding-bottom: 20px;
+    font-weight: 100;
 
     span {
-        font-weight: 100;
+        font-weight: 700;
     }
 
 }

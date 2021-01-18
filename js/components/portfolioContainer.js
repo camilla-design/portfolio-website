@@ -15,7 +15,7 @@ export function portfolioContainer() {
         <img src="./gallery/earproof.png">
             <div class="info">
                 <h2>EarProof</h2>
-                <p>HTML, SASS, JAVASCRIPT & API</p>
+                <p><i class="fas fa-code"></i> HTML, SASS, JAVASCRIPT & API</p>
                 <a href="./earproof.html" class="button">Les mer</a>
             </div>
         </div>
@@ -23,7 +23,7 @@ export function portfolioContainer() {
             <img src="./gallery/explore-leka.png">
             <div class="info">
                 <h2>Explore Leka</h2>
-                <p>HTML, CSS & JAVASCRIPT</p>
+                <p><i class="fas fa-code"></i> HTML, CSS & JAVASCRIPT</p>
                 <a href="./explore-leka.html" class="button">Les mer</a>
             </div>
         </div>
@@ -31,7 +31,7 @@ export function portfolioContainer() {
             <img src="./gallery/re-cycle.png">
             <div class="info">
                 <h2>Re-Cycle</h2>
-                <p>HTML & CSS</p>
+                <p><i class="fas fa-code"></i> HTML & CSS</p>
                 <a href="./re-cycle.html" class="button">Les mer</a>
             </div>
         </div>
@@ -39,7 +39,7 @@ export function portfolioContainer() {
             <img src="./gallery/shadowball.png">
             <div class="info">
                 <h2>Shadowball</h2>
-                <p>HTML, CSS & JAVASCRIPT</p>
+                <p><i class="fas fa-code"></i> HTML, CSS & JAVASCRIPT</p>
                 <a href="./shadowball.html" class="button">Les mer</a>
             </div>
         </div>

@@ -1,5 +1,4 @@
 .portfolio-container {
-    height: 130%;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -22,8 +21,9 @@
         color: getColor(blue);
         font-size: 30px;
         font-weight: 700;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
     }
+
 
     .portfolio-content {
 
