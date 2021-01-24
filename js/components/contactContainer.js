@@ -10,9 +10,9 @@ export function contactContainer() {
             <div class="card">
                 <img src="circle-image.png">
                 <div class="social-icons">
-                    <a href=""><i class="fab fa-github"></i></a>
-                    <a href=""><i class="fab fa-linkedin"></i></a>
-                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href="https://github.com/camilla-design"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/camilla-reppen-18156719b/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/Camilla-Reppen-Front-end-Utvikler-105373874864574"><i class="fab fa-facebook"></i></a>
                 </div>
             </div>
             <div class="contact-details">
